@@ -1012,7 +1012,6 @@ GameObject:
   - component: {fileID: 1072960681}
   - component: {fileID: 1072960680}
   - component: {fileID: 1072960683}
-  - component: {fileID: 1072960682}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -1081,22 +1080,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1072960678}
   m_CullTransparentMesh: 1
---- !u!114 &1072960682
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1072960678}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-    _objectReferences:
-    - {fileID: 11400000, guid: 1f9efa6efc303564fafa705d8f2e8ea8, type: 2}
 --- !u!114 &1072960683
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2119,6 +2102,8 @@ GameObject:
   - component: {fileID: 1996567318}
   - component: {fileID: 1996567317}
   - component: {fileID: 1996567316}
+  - component: {fileID: 1996567320}
+  - component: {fileID: 1996567319}
   m_Layer: 5
   m_Name: Bouton_Quitter
   m_TagString: Untagged
@@ -2228,6 +2213,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1996567314}
   m_CullTransparentMesh: 1
+--- !u!114 &1996567319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1996567314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 1f9efa6efc303564fafa705d8f2e8ea8, type: 2}
+--- !u!114 &1996567320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1996567314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!1 &2041253489
 GameObject:
   m_ObjectHideFlags: 0
