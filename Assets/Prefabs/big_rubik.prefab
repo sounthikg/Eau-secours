@@ -7,6 +7,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1318143839, guid: 791f917cef153314f92f6f68dfbe64fc, type: 3}
+      propertyPath: m_Size.x
+      value: 0.11958298
+      objectReference: {fileID: 0}
+    - target: {fileID: 1318143839, guid: 791f917cef153314f92f6f68dfbe64fc, type: 3}
+      propertyPath: m_Size.y
+      value: 0.12514433
+      objectReference: {fileID: 0}
+    - target: {fileID: 1318143839, guid: 791f917cef153314f92f6f68dfbe64fc, type: 3}
+      propertyPath: m_Size.z
+      value: 0.12464819
+      objectReference: {fileID: 0}
+    - target: {fileID: 1318143839, guid: 791f917cef153314f92f6f68dfbe64fc, type: 3}
+      propertyPath: m_Center.x
+      value: -0.040333144
+      objectReference: {fileID: 0}
+    - target: {fileID: 1318143839, guid: 791f917cef153314f92f6f68dfbe64fc, type: 3}
+      propertyPath: m_Center.y
+      value: 0.12122641
+      objectReference: {fileID: 0}
+    - target: {fileID: 1318143839, guid: 791f917cef153314f92f6f68dfbe64fc, type: 3}
+      propertyPath: m_Center.z
+      value: 0.039339446
+      objectReference: {fileID: 0}
     - target: {fileID: 3951597319118156911, guid: 791f917cef153314f92f6f68dfbe64fc, type: 3}
       propertyPath: m_Name
       value: big_rubik
@@ -69,5 +93,4 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1318143838, guid: 791f917cef153314f92f6f68dfbe64fc, type: 3}
-    - {fileID: 1318143839, guid: 791f917cef153314f92f6f68dfbe64fc, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 791f917cef153314f92f6f68dfbe64fc, type: 3}
